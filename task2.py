@@ -1,0 +1,6 @@
+a=open("F1.txt","r")
+b=open("F2.txt","r")
+d=open("F3.txt","w")
+c=a.read()+b.read()
+d.write(c)
+print(c)
